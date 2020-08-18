@@ -1,0 +1,574 @@
+@keyframes sample1 {
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: khaki;
+    }
+
+    50% {
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text1 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: reverse;
+    animation-timing-function: ease;
+}
+
+@keyframes sample2 {
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: khaki;
+    }
+
+    50% {
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text2 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes sample3 {
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: khaki;
+    }
+
+    50% {
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text3 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 4%;
+    left: 55%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-out;
+}
+
+@keyframes sample4 {
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: khaki;
+    }
+
+    50% {
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text4 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 4%;
+    left: 78%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes sample5 {
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: khaki;
+    }
+
+    50% {
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text5 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+
+@keyframes sample6 {
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: khaki;
+    }
+
+    50% {
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text6 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample6;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: steps(3)
+}
+
+@keyframes sample7 {
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: khaki;
+    }
+
+    50% {
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text7 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample7;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: step-start;
+}
+
+@keyframes sample8 {
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: khaki;
+    }
+
+    50% {
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text8 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    left: 78%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample8;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: reverse;
+    animation-timing-function: step-end;
+}
+
+@keyframes sample9 {
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: khaki;
+    }
+
+    50% {
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text9 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 76%;
+    left: 3%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample9;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: reverse;
+
+}
+
+@keyframes sample10 {
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: khaki;
+    }
+
+    50% {
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text10 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 76%;
+    left: 30%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample10;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(.8, 1.1, .3, 0.2);
+}
+
+@keyframes sample11 {
+    0% {
+        border-radius: 0%;
+        width: 30%;
+        background-color: saddlebrown;
+    }
+
+    25% {
+        width: 40%;
+        background-color: khaki;
+    }
+
+    50% {
+        width: 44%;
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text11 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 76%;
+    left: 55%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample11;
+    animation-duration: 4s;
+
+    animation-delay: 1s;
+
+    animation-fill-mode: backwards;
+}
+
+@keyframes sample12 {
+    0% {
+        border-radius: 0%;
+        width: 30%;
+        background-color: saddlebrown;
+    }
+
+    25% {
+        width: 40%;
+        background-color: khaki;
+    }
+
+    50% {
+        width: 44%;
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text12 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 112%;
+    left: 3%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample12;
+    animation-duration: 4s;
+
+    animation-delay: 1s;
+
+    animation-fill-mode: forwards;
+}
+
+@keyframes sample13 {
+    0% {
+        border-radius: 0%;
+        width: 30%;
+        background-color: saddlebrown;
+    }
+
+    25% {
+        width: 40%;
+        background-color: khaki;
+    }
+
+    50% {
+        width: 44%;
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text13 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 112%;
+    left: 55%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample13;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+    animation-fill-mode: both;
+}
+
+@keyframes sample14 {
+    0% {
+        border-radius: 0%;
+        width: 30%;
+        background-color: saddlebrown;
+    }
+
+    25% {
+        width: 40%;
+        background-color: khaki;
+    }
+
+    50% {
+        width: 44%;
+        background-color: darksalmon;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: olive;
+    }
+}
+
+.text14 {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 150%;
+    left: 25%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    font-family: sans-serif;
+    padding-top: 90px;
+    animation-name: sample14;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+.text14:hover{
+    animation-play-state: paused;
+}
